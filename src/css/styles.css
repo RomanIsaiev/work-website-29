@@ -326,7 +326,7 @@ p {
 }
 
 .bonus-wrapper .bonus-title {
-  color: #72c4ff;
+  color: #ac1521;
   text-align: center;
   font-family: "Futura PT";
   font-size: 20px;
@@ -1309,10 +1309,6 @@ p {
 
 .timer-text-two span {
   font-weight: 500;
-}
-
-.bonus-wrapper .red {
-  color: #ac1521;
 }
 
 /* footer */
