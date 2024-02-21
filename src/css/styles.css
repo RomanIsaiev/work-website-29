@@ -1179,6 +1179,14 @@ p {
   overflow: hidden;
 }
 
+.mySwiper2 .review-image {
+  display: block;
+  max-width: 302px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mySwiper2
   .swiper-slide:nth-child(2n).swiper-slide-active
   .swiper-slide-container {
