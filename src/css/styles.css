@@ -200,6 +200,23 @@ p {
   text-transform: uppercase;
 
   cursor: pointer;
+
+  animation: glowing 1300ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #3c4520;
+    box-shadow: 0 0 5px #3c4520;
+  }
+  50% {
+    background-color: #262d10;
+    box-shadow: 0 0 20px #262d10;
+  }
+  100% {
+    background-color: #3c4520;
+    box-shadow: 0 0 5px #3c4520;
+  }
 }
 
 /* header-sale-mark-pink */
@@ -699,6 +716,23 @@ p {
   text-transform: uppercase;
 
   cursor: pointer;
+
+  animation: glowing-two 1300ms infinite;
+}
+
+@keyframes glowing-two {
+  0% {
+    background-color: #ac1521;
+    box-shadow: 0 0 5px #ac1521;
+  }
+  50% {
+    background-color: #850c16;
+    box-shadow: 0 0 20px #850c16;
+  }
+  100% {
+    background-color: #ac1521;
+    box-shadow: 0 0 5px #ac1521;
+  }
 }
 
 /* main-sale-mark-pink */
@@ -1089,7 +1123,7 @@ p {
   flex-direction: column;
   gap: 20px;
 
-  padding-left: 35px;
+  padding-left: 18%;
 }
 
 .how-study-list .list-item {
@@ -1110,7 +1144,7 @@ p {
 .how-study-dots {
   position: absolute;
   top: 169px;
-  left: 25px;
+  left: 13%;
 }
 
 /* reviews */
@@ -1415,21 +1449,12 @@ p {
   margin-bottom: 50px;
 }
 
-.footer-insta-flex {
+.social-list {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  gap: 5px;
-}
-
-.instagram-nickname {
-  color: #fff;
-  font-family: Manrope;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration-line: underline;
+  align-items: center;
+  gap: 30px;
 }
 
 .disign-creator-container {
