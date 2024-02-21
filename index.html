@@ -9,6 +9,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "2310243522699693");
+      fbq("track", "PageView");
+    </script>
+    <!-- End Meta Pixel Code -->
   </head>
   <body>
     <header class="header">
@@ -31,13 +60,9 @@
             смак вина, навіть не відкорковуючи пляшку
           </p>
           <div class="header-button-container">
-            <a
-              class="header-button link"
-              href="https://unique-wine.kwiga.com/o/NI9ioukmGDJa"
-              target="_blank"
-              rel="nofollow"
-              >хочу на інтенсив</a
-            >
+            <button class="header-button" type="button" data-modal-open-one>
+              хочу на інтенсив
+            </button>
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -60,7 +85,7 @@
           </div>
           <div>
             <p class="timer-text">
-              Встигніть до кінця доби і
+              Встигніть до кінця доби та
               <span>отримайте бонуси</span>
             </p>
             <div id="countdown" class="countdown">
@@ -159,7 +184,7 @@
                 <li class="list-item">Навчання в онлайн форматі</li>
                 <li class="list-decoration"></li>
                 <li class="list-item">
-                  8 уроків в записи по 10-15 хвилин кожен
+                  8 уроків в записі по 10-15 хвилин кожен
                 </li>
                 <li class="list-decoration"></li>
                 <li class="list-item">
@@ -190,7 +215,7 @@
                 й про його якість, що принесе значно більшу насолоду від вина
               </li>
               <li class="list-item">
-                <span>Опануєш мистецтво вибору вина,</span> ставши здатним на
+                <span>Опануєш мистецтво вибору вина,</span> ставши здатним, на
                 перший погляд оцінити характеристики вина за етикеткою та
                 регіоном виробництва
               </li>
@@ -220,7 +245,7 @@
             <span class="price-wrapper-category">Інтенсив</span>
             <h3 class="price-wrapper-title">ВИНО One love</h3>
             <p class="price-wrapper-desc">
-              значно випереджає інші стартові програми по навчанню вину не лише
+              значно випереджає інші стартові програми з навчанню вину не лише
               своєю легкістю й ефективністю, але й численними порадами
             </p>
             <div class="wrapper">
@@ -231,13 +256,9 @@
             </p>
           </div>
           <div class="buy-button-container">
-            <a
-              class="buy-button link"
-              href="https://unique-wine.kwiga.com/o/NI9ioukmGDJa"
-              target="_blank"
-              rel="nofollow"
-              >купити</a
-            >
+            <button class="buy-button" type="button" data-modal-open-one>
+              купити
+            </button>
             <div class="main-sale-mark">
               <picture
                 ><source
@@ -302,9 +323,9 @@
                 <div><p class="number-lesson">4 УРОК</p></div>
                 <div>
                   <p class="item-text">
-                    <span>Термінологія для опису вина.</span> Хрусткі,
-                    терруарні, пишні, комплексні... які ще бувають? Розберемо,
-                    що позначають ці терміни простою мовою
+                    <span>Термінологія для опису вина.</span> Хрусткі, теруарні,
+                    пишні, комплексні... які ще бувають? Розберемо, що
+                    позначають ці терміни простою мовою
                   </p>
                 </div>
               </div>
@@ -319,7 +340,7 @@
                       пляшки?</span
                     >
                     Поговоримо як просто обирати вино в магазині, знаючи місце
-                    вирощування винограднику
+                    вирощування виноградника
                   </p>
                 </div>
               </div>
@@ -398,7 +419,7 @@
                   Моя місія — це допомога кожному, хто прагне поглибити свої
                   знання у вині, щоб вибирати якісні вина й не тільки «по
                   кольору очей», але й з розумінням його характеру, в будь-якому
-                  бюджеті, та відчувати задоволення від вибору віна, й від
+                  бюджеті, та відчувати задоволення від вибору вина, й від
                   кожного ковтка.
                 </li>
                 <li class="list-item">
@@ -497,7 +518,7 @@
               </div>
             </div>
             <div class="statistics-container">
-              <p class="statistics-accent-one">Більше 1000</p>
+              <p class="statistics-accent-one">більш ніж 1 000</p>
               <p class="statistics-text statistict-decoration">
                 задоволених клієнтів
               </p>
@@ -510,7 +531,7 @@
               </p>
               <p class="statistics-accent-two">N000+</p>
               <p class="statistics-text">
-                точно не пам’ятаю, але N точно більше 3&#41;&#41; –
+                точно не пам’ятаю, але N точно понад 3&#41;&#41; –
                 продегустованих вин
               </p>
             </div>
@@ -577,22 +598,24 @@
                     /></picture>
                   </div>
                   <div class="swiper-slide">
-                    <picture
-                      ><source
-                        srcset="
-                          ./src/images/reviews/review-two-mobile-1x.png 1x,
-                          ./src/images/reviews/review-two-mobile-2x.png 2x
-                        "
-                        media="(min-width: 320px)"
-                        width="302"
-                        height="539" />
-                      <img
-                        class="review-image"
-                        src="./src/images/reviews/review-two-mobile-1x.png"
-                        alt="review-image"
-                        width="302"
-                        height="539"
-                    /></picture>
+                    <div class="swiper-slide-container">
+                      <picture
+                        ><source
+                          srcset="
+                            ./src/images/reviews/review-two-mobile-1x.png 1x,
+                            ./src/images/reviews/review-two-mobile-2x.png 2x
+                          "
+                          media="(min-width: 320px)"
+                          width="302"
+                          height="539" />
+                        <img
+                          class="review-image"
+                          src="./src/images/reviews/review-two-mobile-1x.png"
+                          alt="review-image"
+                          width="302"
+                          height="539"
+                      /></picture>
+                    </div>
                   </div>
                   <div class="swiper-slide">
                     <picture
@@ -649,10 +672,8 @@
                     /></picture>
                   </div>
                 </div>
-                <div class="reviews-button-container">
-                  <div class="swiper2-button-next"></div>
-                  <div class="swiper2-button-prev"></div>
-                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
               </div>
             </div>
           </div>
@@ -708,8 +729,8 @@
                   <p>
                     Впродовж курсу я буду демонструвати вам дегустації різних
                     вин, ви сміливо можете купувати такі самі вина й повторювати
-                    таки дегустації самостійно в зручний вам час й в улюбленої
-                    компанії, будь то друзі, колеги чи близька людина.
+                    такі дегустації самостійно в зручний вам час й в улюбленої
+                    компанії, хай то друзі, колеги чи близька людина.
                   </p>
                 </div>
               </div>
@@ -729,12 +750,12 @@
                 </div>
                 <div class="content-two">
                   <p>
-                    Цей курс закладе початкові знання. Й якщо ви побажаєте
+                    Цей курс закладе початкові знання. І якщо ви забажаєте
                     продовжити шлях, то  матимете змогу долучитися до базового
                     курсу, де ми більше зануримося в теорію й в практику. Його
                     запуск заплановано на кінець березня 2024 року. Але саме цей
                     інтенсив «Вино. One Love» допоможе вам швидко увійти в тему
-                    і комфортне почуватися потім на Базовому курсі.
+                    і комфортніше почуватися потім на Базовому курсі.
                   </p>
                 </div>
               </div>
@@ -752,16 +773,16 @@
                 <div class="content-two">
                   <p>
                     Перш за все, мені дуже хочеться, щоб максимальна кількість
-                    людей мала змогу зануритися в світ вина та вдосконалити свою
+                    людей мала змогу зануритися у світ вина та вдосконалити свою
                     культуру його споживання. Це важливо, адже ми прагнемо
                     культурного розвитку та підтримуємо європейські цінності,
-                    хочемо бути на одному й економічному й культурному рівні з
+                    хочемо бути на одному й економічному, й культурному рівні з
                     нашими західними сусідами. Також, ця пропозиція дає чудову
                     можливість познайомитися зі мною ближче, як з експертом у
                     сфері вина. Це ваш шанс відчути мою манеру викладу та підхід
                     до навчання. Якщо вам сподобається, я буду щаслива зустріти
-                    вас на моїх більш глибоких та розширених програмах, де ми
-                    зможемо разом продовжити подорож у світ вина.
+                    вас на моїх глибших та розширених програмах, де ми зможемо
+                    разом продовжити подорож у світ вина.
                   </p>
                 </div>
               </div>
@@ -782,16 +803,16 @@
                   <p>
                     Цей інтенсив унікальний тим, що в ньому знайдена золота
                     середина між теорією і практикою. Після кожного короткого
-                    блоку теоретичних знань, я даю прості і зрозумілі поради,
+                    блоку теоретичних знань, я даю прості й зрозумілі поради,
                     які можна одразу використати у повсякденному житті. Все
                     пояснено просто, так що нудьгувати точно не доведеться.
                     <br />
                     Курс розрахований всього на два дні перегляду матеріалів,
                     але цього часу достатньо, щоб ви почали впевненіше
-                    розумітися на винах. Ви навчитесь вгадувати смак вина,
-                    просто дивлячись на етикетку пляшки. Основна фішка курсу –
-                    це швидкість навчання і простота матеріалу, що гарантує
-                    хороші результати у розумінні вина.
+                    розумітися у винах. Ви навчитесь вгадувати смак вина, просто
+                    дивлячись на етикетку пляшки. Основна фішка курсу – це
+                    швидкість навчання і простота матеріалу, що гарантує хороші
+                    результати у розумінні вина.
                   </p>
                 </div>
               </div>
@@ -859,13 +880,9 @@
               </p>
             </div>
             <div class="buy-button-container">
-              <a
-                class="buy-button link"
-                href="https://unique-wine.kwiga.com/o/NI9ioukmGDJa"
-                target="_blank"
-                rel="nofollow"
-                >купити</a
-              >
+              <button class="buy-button" type="button" data-modal-open-one>
+                купити
+              </button>
               <div class="main-sale-mark">
                 <picture
                   ><source
@@ -972,8 +989,26 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal1>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close1>
+          <img
+            src="./src/images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1708464466"></div>
+      </div>
+    </div>
     <script type="module" src="./src/js/swiper.js"></script>
     <script type="module" src="./src/js/timer.js"></script>
     <script type="module" src="./src/js/faq.js"></script>
+    <script type="module" src="./src/js/js-modal.js"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1708464466&uuid=e0ee7e51-130d-40a0-ab18-55eb097ad8df&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>

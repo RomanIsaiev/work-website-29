@@ -37,9 +37,9 @@ const swiper = new Swiper(".mySwiper", {
 });
 
 const swiper2 = new Swiper(".mySwiper2", {
-  loop: true,
+  // loop: true,
 
-  autoHeight: true,
+  // autoHeight: true,
 
   spaceBetween: 100,
 
@@ -48,10 +48,10 @@ const swiper2 = new Swiper(".mySwiper2", {
     clickable: true,
   },
 
-  autoplay: {
-    delay: 5000,
-    pauseOnMouseEnter: true,
-  },
+  // autoplay: {
+  //   delay: 5000,
+  //   pauseOnMouseEnter: true,
+  // },
 
   navigation: {
     nextEl: ".swiper-button-next",
