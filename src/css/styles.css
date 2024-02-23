@@ -90,7 +90,14 @@ p {
   }
 }
 
+@media screen and (min-width: 1440px) {
+}
+
 /* header */
+
+.header {
+  background-color: #e8e0da;
+}
 
 .header-background {
   padding-top: 20px;
@@ -402,7 +409,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 
-    max-width: 768px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -586,8 +593,9 @@ p {
     padding-bottom: 80px;
 
     background-image: url(../images/for-whom-tablet-1x.jpg);
+    background-position: center;
 
-    max-width: 768px;
+    max-width: 100%;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -1528,7 +1536,8 @@ p {
     padding-top: 80px;
     padding-bottom: 80px;
     background-image: url(../images/study-reviews-background-tablet-1x.jpg);
-    max-width: 768px;
+
+    max-width: 100%;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -1847,7 +1856,7 @@ p {
     padding-top: 80px;
     padding-bottom: 80px;
 
-    max-width: 768px;
+    max-width: 100%;
   }
 
   .questions-title {
@@ -1980,7 +1989,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .footer {
-    max-width: 768px;
+    max-width: 100%;
     padding-top: 80px;
     padding-bottom: 100px;
   }
