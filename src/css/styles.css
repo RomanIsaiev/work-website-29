@@ -197,6 +197,8 @@ p {
 }
 
 .header-button {
+  display: block;
+
   padding: 13px;
   border-radius: 60px;
   background: #3c4520;
@@ -924,6 +926,8 @@ p {
 }
 
 .buy-button {
+  display: block;
+
   padding: 13px;
   border-radius: 60px;
   background: #ac1521;
