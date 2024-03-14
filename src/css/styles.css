@@ -1593,7 +1593,6 @@ p {
 
 .reviews-title {
   color: #d3deb2;
-  text-align: center;
   font-family: "Druk Cyr";
   font-size: 48px;
   font-style: normal;
@@ -1601,80 +1600,205 @@ p {
   line-height: 100%; /* 48px */
   text-transform: uppercase;
 
-  margin-bottom: 30px;
+  max-width: 300px;
 }
 
-.review-image {
+.hand-move-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+
+  margin-bottom: 21px;
+}
+
+.hand-move-icon {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.hand-move-text {
+  color: #626262;
+  font-family: "Futura PT";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 100%; /* 14px */
+
+  max-width: 98px;
 }
 
 .mySwiper2 {
-  max-height: 539px;
-  min-height: 420px;
+  margin-bottom: 50px;
 }
 
-.mySwiper2 .swiper-slide:nth-child(2n) .swiper-slide-container {
-  height: 369px;
-  overflow: hidden;
+.mySwiper2 .swiper-slide {
+  width: 100%;
 }
 
 .mySwiper2 .review-image {
   display: block;
-  max-width: 302px;
+  max-width: 225px;
   width: 100%;
+}
+
+/* differences */
+
+.differences-container {
+  margin-bottom: 80px;
+}
+
+.differences-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.differences-list .list-item {
+  max-width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.mySwiper2
-  .swiper-slide:nth-child(2n).swiper-slide-active
-  .swiper-slide-container {
-  height: 539px;
-  overflow: visible;
+.differences-list .list-item:nth-child(1)::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #626262;
+
+  margin-bottom: 30px;
 }
 
-.mySwiper2 .swiper-button-next {
-  --swiper-navigation-size: 26px;
-  --swiper-navigation-color: #ffffff;
-  --swiper-navigation-top-offset: 200px;
-  --swiper-navigation-sides-offset: 0;
+.differences-list .list-item::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #626262;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.mySwiper2 .swiper-button-prev {
-  --swiper-navigation-size: 26px;
-  --swiper-navigation-color: #ffffff;
-  --swiper-navigation-top-offset: 200px;
-  --swiper-navigation-sides-offset: 0;
+.differences-list .item-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.differences-list .list-number {
+  color: #d3deb2;
+  font-family: "Futura PT";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 48px */
+}
+
+.differences-list .list-text {
+  color: #fff;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+
+  max-width: 236px;
+}
+
+.differences-list .list-text span {
+  font-weight: 500;
+}
+
+/* video */
+
+.video-container {
+}
+
+.video-wrapper {
+  padding: 30px 20px;
+  border-radius: 20px;
+  background: #fff;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-title {
+  color: #ac1521;
+  text-align: center;
+  font-family: "Druk Cyr";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 32px */
+  text-transform: uppercase;
+
+  margin-bottom: 30px;
+}
+
+.video-text {
+  color: #101010;
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 17.6px */
+
+  margin-bottom: 10px;
+}
+
+.video {
+}
+
+.video-frame {
+  width: 320px;
+  width: 100%;
+  height: 158px;
 }
 
 @media screen and (min-width: 768px) {
   .reviews-title {
     font-size: 64px;
-    margin-bottom: 30px;
+    max-width: 334px;
   }
 
-  .mySwiper2 .review-image {
-    display: block;
-    max-width: 400px;
-    width: 100%;
+  .hand-move-container {
+    margin-right: 200px;
+  }
+
+  .differences-list .list-item {
+    max-width: 375px;
+  }
+
+  .differences-list .list-text {
+    max-width: 311px;
+  }
+
+  .video-wrapper {
+    border-radius: 30px;
+    max-width: 460px;
+  }
+
+  .video-title {
+    font-size: 40px;
+    margin-bottom: 30px;
+
+    max-width: 340px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .mySwiper2 .swiper-button-next {
-    --swiper-navigation-size: 35px;
-    --swiper-navigation-color: #ffffff;
-    --swiper-navigation-top-offset: 171px;
-    --swiper-navigation-sides-offset: 50px;
+  .video-text {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .mySwiper2 .swiper-button-prev {
-    --swiper-navigation-size: 35px;
-    --swiper-navigation-color: #ffffff;
-    --swiper-navigation-top-offset: 171px;
-    --swiper-navigation-sides-offset: 50px;
+  .video-frame {
+    width: 420px;
+    width: 100%;
+    height: 238px;
   }
 }
 
