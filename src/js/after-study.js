@@ -11,4 +11,8 @@ button.addEventListener("click", openList);
 
 function openList() {
   list.classList.toggle("study-open");
+
+  list.classList.contains("study-open")
+    ? (button.textContent = "закрити")
+    : (button.textContent = "читати більше");
 }

@@ -1917,7 +1917,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 
-  height: 240px;
+  height: 220px;
   overflow: hidden;
 
   margin-bottom: 20px;
@@ -1947,13 +1947,13 @@ p {
   display: block;
 
   width: 320px;
-  height: 200px;
+  height: 250px;
 
   background: linear-gradient(180deg, rgba(16, 16, 16, 0) 0%, #101010 100%);
 
   opacity: 0.8;
 
-  margin-top: -540px;
+  margin-top: -480px;
   margin-left: -20px;
 }
 
@@ -2262,7 +2262,7 @@ p {
 /* faq-02 */
 
 .faq-two {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 
   height: 179px;
   overflow: hidden;

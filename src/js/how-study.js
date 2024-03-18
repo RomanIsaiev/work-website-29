@@ -6,4 +6,8 @@ button.addEventListener("click", openWrapper);
 
 function openWrapper() {
   wrapper.classList.toggle("open-wrapper");
+
+  wrapper.classList.contains("open-wrapper")
+    ? (button.textContent = "закрити")
+    : (button.textContent = "читати більше");
 }

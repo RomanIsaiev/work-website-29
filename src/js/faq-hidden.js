@@ -6,4 +6,8 @@ button.addEventListener("click", openFaq);
 
 function openFaq() {
   faqWrapper.classList.toggle("faq-open");
+
+  faqWrapper.classList.contains("faq-open")
+    ? (button.textContent = "закрити")
+    : (button.textContent = "читати більше");
 }

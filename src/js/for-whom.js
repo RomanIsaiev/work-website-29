@@ -11,7 +11,7 @@ function click() {
     item.classList.toggle("list-open");
   });
 
-  // list.classList.contains("list-open")
-  //   ? (button.textContent = "закрити")
-  //   : (button.textContent = "відкрити");
+  list.classList.contains("list-open")
+    ? (button.textContent = "закрити")
+    : (button.textContent = "читати більше");
 }
